@@ -58,6 +58,7 @@ public class Grocery {
     }
 
     public static void printSorted() {
+        Collections.sort(groceryList);
         System.out.println("Current grocery list: " + groceryList);
     }
 
